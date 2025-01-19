@@ -448,8 +448,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.portfolio li:hover .portfolio-overlay
-/* .port-item:hover .portfolio-overlay */
+.portfolio li:hover .portfolio-overlay,
+.port-item:hover .portfolio-overlay
 {
   transform: translateY(0%);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -518,7 +518,8 @@ align-content:  flex-start;
 padding: 100px 0;
 background-color: #2e2f42;
 }
-.footer .social-box{
+
+/* .footer .social-box{
 gap: 16px;
 align-content: center;
 align-items: center;
@@ -526,11 +527,11 @@ padding-top: 0;
 padding-left: 0;
 padding-right: 0;
 margin-top: 16px;
-}
+} */
 
-.footer .social-links{
+/* .footer .social-links{
   text-align: center;
-}
+} */
 
 .footer-p
 {
