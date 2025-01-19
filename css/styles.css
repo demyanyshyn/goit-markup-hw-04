@@ -241,7 +241,7 @@ border: none;
 border-radius: 4px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .banner-button:hover
@@ -378,7 +378,7 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 
-.social-box {
+.social{
 width: 100%;
 display: flex;
 justify-content: center;
