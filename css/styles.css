@@ -54,9 +54,10 @@ body {
 
 header
 {
-  max-height: 72px;
+  /* max-height: 72px; */
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px;
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container
@@ -108,13 +109,12 @@ nav {
   gap: 40px;
   padding: 0;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .navigation,
 .navigation a
 {
-  display: flex;
   gap: 40px;
   flex-direction: row;
   align-items: center;
@@ -127,44 +127,38 @@ nav {
 }
 
 .menu a{
-padding: 24px 0 24px;
-}
+  padding: 24px 0 24px;
 
-
+  }
 
 .menu,
 .navigation li,
 .navigation li a
 {
+  position: relative;
   display: flex;
   gap: 40px;
   height: 100%;
+ transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-inner{position: relative;}
 
-.menu-overlay
+
+
+.current::after
 {
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  border: 1px solid #404bbf;
-  background: #404bbf;
-  
   position: absolute;
-  bottom: 0px;
-  overflow: hidden;
-  transform: translateY(100%);
-  /* transition: transform; */
-}
-
-/* .menu:focus a .menu-overlay, */
-.menu:active .menu-overlay,
-.navigation:hover .menu-overlay
-{
+bottom: -1px;
+display: flex;
+  height: 4px;
+  width: 100%;
   color: #404bbf;
-  border-bottom: 1px solid #404bbf;
-  transform: translateY(0);
+  border: 1px solid #404bbf;
+  background-color: #404bbf;
+  border-radius: 4px;
+  /* transform: translateY(0); */
+  margin: auto;
+  content: "";
 }
 
 .menu:hover,
@@ -441,6 +435,19 @@ z-index: 2;
   transform: translateY(100%);
   transition: transform 0.5s ease;
   z-index: 1;
+}
+.menu-overlay
+{
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  border: 1px solid #404bbf;
+  background: #404bbf;
+  position: absolute;
+  bottom: 0px;
+  overflow: hidden;
+  transform: translateY(100%);
+  /* transition: transform; */
 }
 /* #endregion ------------------ Portfolio Section ---------------------------------------*/
 /* #region ------------------ Footer Section ---------------------------------------*/
