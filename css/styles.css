@@ -502,17 +502,22 @@ background-color: #fff;
 }
 /* #endregion ------------------ Portfolio Section ---------------------------------------*/
 /* #region ------------------ Footer Section ---------------------------------------*/
+.footer{
+  display: flex;
+  justify-content:  center;
+}
+
 .footer .container
 { 
 flex-direction: row;
 /* max-width: 100hv; */
-align-content:  flex-start;
 }
+
 .footer-inner
 {
   display: flex;
   align-items: baseline;
-
+min-width: 1158px;
 }
 
 .footer-ul {
