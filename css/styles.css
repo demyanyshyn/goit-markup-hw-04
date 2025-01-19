@@ -387,7 +387,9 @@ padding: 8px 16px 0 16px;
   
   }
 
-.social-links {
+.social-links,
+.social-li
+ {
 width: 40px;
 height: 40px;
 display: inline-block;
@@ -399,7 +401,7 @@ align-items: center;
 }
 
 .social-links:hover,
-.social-box .social-links:hover
+.social .social-links:hover
  {
   background-color: #31d0aa;
 }
