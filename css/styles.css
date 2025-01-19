@@ -505,6 +505,7 @@ background-color: #fff;
 .footer{
   display: flex;
   justify-content:  center;
+  margin-right: 120px
 }
 
 .footer .container
@@ -515,14 +516,9 @@ flex-direction: row;
 
 .footer-inner
 {
-  display: flex;
-  align-items: baseline;
+display: flex;
+align-items: baseline;
 min-width: 1158px;
-}
-
-.footer-ul {
-  display: flex;
-  gap: 120px;
 }
 
 .footer {
