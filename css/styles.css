@@ -356,7 +356,7 @@ max-width: calc((100% - 72px) / 4);
 }
 
 .team-li:hover .social-links,
-.team-li:hfocus .social-links
+.team-li:focus .social-links
 {
 background-color: #404bbf;
 }
