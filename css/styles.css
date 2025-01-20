@@ -355,11 +355,6 @@ max-width: calc((100% - 72px) / 4);
   background-color: #FFFFFF;
 }
 
-.team-li:hover .social-links,
-.team-li:focus .social-links
-{
-background-color: #404bbf;
-}
 
 .container .team-li
 {
@@ -387,10 +382,9 @@ display: flex;
 justify-content: center;
 gap: 24px;
 padding: 8px 16px 0 16px;
-  }
+}
 
-.social-links,
-.social-li
+.social-links
  {
 width: 40px;
 height: 40px;
@@ -404,13 +398,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links:hover,
-.social .social-links:hover,
-.social a:hover,
-.social-links:focus,
-.social .social-links:focus,
-.social a:focus
+.social-links:focus
  {
-  /* background-color: #31d0aa; */
   background-color: #404bbf;
 }
 .social-icons
@@ -434,11 +423,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #fff;
 }
 
-/* .banner, */
-.portfolio li
+.port-li
 {
-  /* position: relative; */
-  /* overflow: hidden; */
+
   border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -450,13 +437,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio li:hover
+.port-li:hover
 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.portfolio li:hover .portfolio-overlay,
+.port-li:hover .portfolio-overlay,
 .port-item:hover .portfolio-overlay
 {
   transform: translateY(0%);
@@ -543,7 +530,7 @@ gap: 120px;
    width: 100%;
   }
 
-.footer a:hover
+.footer .social-links:hover
 {
   height: 100%;
   width: 100%;
@@ -577,9 +564,7 @@ margin-top: 16px;
   height: 40px;
   gap: 16px;
 }
-/* .footer .social-links{
-  text-align: center;
-} */
+
 
 .footer-p
 {
@@ -621,11 +606,7 @@ color: #f4f4fd;
 }
 
 .footer .social-links:hover,
-.footer .social .social-links:hover,
-.footer .social a:hover,
-.footer .social-links:focus,
-.footer .social .social-links:focus,
-.footer .social a:focus
+.footer .social-links:focus
  {
   background-color: #31d0aa;
  }
