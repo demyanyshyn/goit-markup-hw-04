@@ -188,8 +188,15 @@ ul.contacts, .contacts
 display: flex;
 background-color: #2e2f42;
 height: 600px;
-
+margin: 0 auto;
+background-image: linear-gradient(to bottom,
+    rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+max-width: 1440px;
 }
+
 
 
 
@@ -197,15 +204,8 @@ height: 600px;
 {
   align-content: center;
   text-align: center;
-  
-  margin: 0 auto;
-  background-image: linear-gradient(to bottom,
-      rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-width: 1440px;
 }
+ 
 
 .banner-title
 {
@@ -511,6 +511,7 @@ background-color: #fff;
 
 .footer .container
 { 
+  margin-right: 120px;
 flex-direction: row;
 /* max-width: 100hv; */
 }
@@ -520,7 +521,7 @@ flex-direction: row;
 display: flex;
 align-items: baseline;
 min-width: 1158px;
-margin-right: 120px;
+
 gap: 120px;
 }
 
@@ -547,6 +548,7 @@ margin-top: 16px;
 {
   width: 40px;
   height: 40px;
+  gap: 16px;
 }
 /* .footer .social-links{
   text-align: center;
