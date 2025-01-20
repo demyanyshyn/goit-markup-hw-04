@@ -184,17 +184,11 @@ ul.contacts, .contacts
 /* #region ------------------ Banner Section ---------------------------------------*/
 .banner
 {
-padding: 188px 0;
+/* padding: 188px 0; */
 display: flex;
 background-color: #2e2f42;
 height: 600px;
-margin: 0 auto;
-  background-image: linear-gradient(to bottom,
-      rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-width: 1440px;
+
 }
 
 
@@ -204,6 +198,13 @@ margin: 0 auto;
   align-content: center;
   text-align: center;
   
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom,
+      rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
 }
 
 .banner-title
@@ -426,7 +427,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #fff;
 }
 
-.banner,
+/* .banner, */
 .portfolio li
 {
   /* position: relative; */
