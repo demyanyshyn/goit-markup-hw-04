@@ -619,4 +619,14 @@ color: #f4f4fd;
   padding: 0;
   margin-bottom: 16px;
 }
+
+.footer .social-links:hover,
+.footer .social .social-links:hover,
+.footer .social a:hover,
+.footer .social-links:focus,
+.footer .social .social-links:focus,
+.footer .social a:focus
+ {
+  background-color: #31d0aa;
+ }
 /* #endregion ------------------ Foot Section ---------------------------------------*/
