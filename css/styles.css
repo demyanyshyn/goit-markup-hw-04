@@ -355,7 +355,9 @@ max-width: calc((100% - 72px) / 4);
   background-color: #FFFFFF;
 }
 
-.team-li:hover .social-links{
+.team-li:hover .social-links,
+.team-li:hfocus .social-links
+{
 background-color: #404bbf;
 }
 
@@ -403,7 +405,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .social-links:hover,
 .social .social-links:hover,
-.social a:hover
+.social a:hover,
+.social-links:focus,
+.social .social-links:focus,
+.social a:focus
  {
   background-color: #31d0aa;
 }
