@@ -511,9 +511,14 @@ background-color: #fff;
 
 .footer .container
 { 
-  margin-right: 120px;
+ 
 flex-direction: row;
 
+}
+
+.foter-inner-item
+{
+  margin-right: 120px;
 }
 
 .footer-inner
@@ -525,7 +530,18 @@ margin-right: 120px;
 gap: 120px;
 }
 
-.footer a{height: 100%; width: 100%;}
+.footer a
+{
+  height: 100%;
+   width: 100%;
+  }
+
+.footer a:hover
+{
+  height: 100%;
+  width: 100%;
+  background-color: #31d0aa;
+}
 .footer {
 padding: 100px 0;
 background-color: #2e2f42;
@@ -542,7 +558,11 @@ padding-right: 0;
 margin-top: 16px;
 }
 
-.footer .social{padding: 0;}
+.footer .social
+{
+  padding: 0;
+  gap: 16px;
+}
 
 .footer .social-list
 {
